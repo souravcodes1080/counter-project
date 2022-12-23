@@ -7,14 +7,17 @@ let count = 0;
 increase.addEventListener("click", function () {
   count++;
   int.innerHTML = count;
+   console.log(count);
 });
 
 reset.addEventListener("click", function () {
   count = 0;
   int.innerHTML = count;
+  console.log(count);
 });
 
 decrease.addEventListener("click", function () {
   count--;
   int.innerHTML = count;
+  console.log(count);
 });
